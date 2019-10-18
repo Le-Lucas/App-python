@@ -1,0 +1,15 @@
+<aleatorio>:
+    
+    orientation:'vertical'
+    Button:
+        text:'Rodar'
+        on_press: label.text=(str(root.rodar(6)))
+        on_press: label.color= [1,5,0,1]
+        on_press: label.text=(str(root.total()))
+    Label:
+        id:label
+        text:'seu resultado é'
+    Label:
+        id:label1
+        text:'Total'
+          

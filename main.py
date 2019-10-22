@@ -9,14 +9,15 @@ class aleatorio(BoxLayout):
     girar=0
     total= 0
     def rodar(self,valor):
-        girar = (str(random.randint(1,valor)))
-        self.total+=str(girar)
-        return self.total
+        self.girar = random.randint(1,valor)
+        return self.girar
     
- #   def total(self):
-     
-    #    return self.total
+    def soma(self):
+        self.total+=self.girar
+        return self.total
         
+
+    
         
 
 
